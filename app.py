@@ -1,32 +1,26 @@
 import sympy as sp
+import streamlit as st
 
-def tinh_dao_ham():
-    # Khai báo biến x
+st.title("=== CHƯƠNG TRÌNH TÍNH ĐẠO HÀM ===")
+st.info("""
+**Lưu ý cú pháp:**
+- Số mũ: dùng `**` (VD: `x**2` thay vì `x^2`)
+- Phép nhân: bắt buộc dùng `*` (VD: `2*x` thay vì `2x`)
+- Hàm lượng giác: `sin(x)`, `cos(x)`, `tan(x)`, `exp(x)`...
+""")
+
+bieu_thuc_str = st.text_input("Nhập hàm số f(x):", "")
+
+if bieu_thuc_str: 
     x = sp.symbols('x')
-
-    print("=== CHƯƠNG TRÌNH TÍNH ĐẠO HÀM ===")
-    print("Lưu ý cú pháp:")
-    print("- Số mũ: dùng '**' (VD: x**2 thay vì x^2)")
-    print("- Phép nhân: bắt buộc dùng '*' (VD: 2*x thay vì 2x)")
-    print("- Hàm lượng giác: sin(x), cos(x), tan(x), exp(x)...\n")
-    
-    # Nhận đầu vào từ người dùng
-    bieu_thuc_str = input("Nhập hàm số f(x): ")
-
     try:
-        # Chuyển đổi chuỗi nhập vào thành biểu thức toán học
         f = sp.sympify(bieu_thuc_str)
-        
-        # Tính đạo hàm bậc 1 theo biến x
         f_phay = sp.diff(f, x)
         
-        print("\n--- KẾT QUẢ ---")
-        print(f"Hàm số gốc: f(x)  = {f}")
-        print(f"Đạo hàm:    f'(x) = {f_phay}")
+        st.subheader("--- KẾT QUẢ ---")
+        st.write("Hàm số gốc:  $f(x) =$", f)
+        st.write("Đạo hàm:  $f'(x) =$", f_phay)
         
     except Exception as e:
-        print("\n[Lỗi] Hàm số nhập vào không hợp lệ. Vui lòng kiểm tra lại cú pháp!")
-        print(f"Chi tiết lỗi: {e}")
-
-if __name__ == "__main__":
-    tinh_dao_ham()
+        st.error("Hàm số nhập vào không hợp lệ. Vui lòng kiểm tra lại cú pháp!")
+        st.write(f"Chi tiết lỗi: {e}")
