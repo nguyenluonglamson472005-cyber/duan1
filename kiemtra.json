@@ -1,0 +1,152 @@
+[
+    {
+        "question": "Cho hình vẽ tam giác MNP. Cạnh MN được kéo dài về phía N tạo thành tia Nx, cạnh PN được kéo dài về phía N tạo thành tia Ny:<br><br><svg height='160' width='230'><line x1='30' y1='80' x2='220' y2='80' stroke='currentColor' stroke-width='2'/><line x1='90' y1='10' x2='190' y2='150' stroke='currentColor' stroke-width='2'/><line x1='50' y1='80' x2='90' y2='10' stroke='currentColor' stroke-width='2'/><text x='35' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>M</text><text x='130' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>N</text><text x='75' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>P</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='195' y='150' fill='currentColor' font-family='sans-serif' font-size='16'>y</text></svg><br><br>Góc đối đỉnh của góc trong MNP của tam giác là góc nào?",
+        "options": ["Góc MNy", "Góc xNy", "Góc PNx", "Góc MPN"],
+        "answer": "Góc xNy"
+    },
+    {
+        "question": "Quan sát hình vẽ tam giác MNP có các cạnh kéo dài:<br><br><svg height='160' width='230'><line x1='30' y1='80' x2='220' y2='80' stroke='currentColor' stroke-width='2'/><line x1='90' y1='10' x2='190' y2='150' stroke='currentColor' stroke-width='2'/><line x1='50' y1='80' x2='90' y2='10' stroke='currentColor' stroke-width='2'/><text x='35' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>M</text><text x='130' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>N</text><text x='75' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>P</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='195' y='150' fill='currentColor' font-family='sans-serif' font-size='16'>y</text></svg><br><br>Hai góc kề bù với góc MNP là những góc nào?",
+        "options": ["Góc MNy và góc PNx", "Góc xNy và góc MNy", "Góc xNy và góc PNx", "Góc PMN và góc MPN"],
+        "answer": "Góc MNy và góc PNx"
+    },
+    {
+        "question": "Dựa vào hình vẽ:<br><br><svg height='160' width='230'><line x1='30' y1='80' x2='220' y2='80' stroke='currentColor' stroke-width='2'/><line x1='90' y1='10' x2='190' y2='150' stroke='currentColor' stroke-width='2'/><line x1='50' y1='80' x2='90' y2='10' stroke='currentColor' stroke-width='2'/><text x='35' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>M</text><text x='130' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>N</text><text x='75' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>P</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='195' y='150' fill='currentColor' font-family='sans-serif' font-size='16'>y</text></svg><br><br>Góc xNy kề bù với những góc nào?",
+        "options": ["Góc MNy và góc PNx", "Góc MNP và góc PNx", "Góc MNP và góc MNy", "Góc MPN và góc PMN"],
+        "answer": "Góc MNy và góc PNx"
+    },
+    {
+        "question": "Từ hình vẽ tam giác MNP:<br><br><svg height='160' width='230'><line x1='30' y1='80' x2='220' y2='80' stroke='currentColor' stroke-width='2'/><line x1='90' y1='10' x2='190' y2='150' stroke='currentColor' stroke-width='2'/><line x1='50' y1='80' x2='90' y2='10' stroke='currentColor' stroke-width='2'/><text x='35' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>M</text><text x='130' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>N</text><text x='75' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>P</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='195' y='150' fill='currentColor' font-family='sans-serif' font-size='16'>y</text></svg><br><br>Cặp góc MNP và PNx là gì của nhau?",
+        "options": ["Hai góc đối đỉnh", "Hai góc kề bù", "Hai góc trong cùng phía", "Hai góc so le trong"],
+        "answer": "Hai góc kề bù"
+    },
+    {
+        "question": "Trong hình vẽ:<br><br><svg height='160' width='230'><line x1='30' y1='80' x2='220' y2='80' stroke='currentColor' stroke-width='2'/><line x1='90' y1='10' x2='190' y2='150' stroke='currentColor' stroke-width='2'/><line x1='50' y1='80' x2='90' y2='10' stroke='currentColor' stroke-width='2'/><text x='35' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>M</text><text x='130' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>N</text><text x='75' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>P</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='195' y='150' fill='currentColor' font-family='sans-serif' font-size='16'>y</text></svg><br><br>Cặp góc MNP và xNy là gì của nhau?",
+        "options": ["Hai góc kề bù", "Hai góc đối đỉnh", "Hai góc đồng vị", "Hai góc phụ nhau"],
+        "answer": "Hai góc đối đỉnh"
+    },
+    {
+        "question": "Quan sát hình:<br><br><svg height='160' width='230'><line x1='30' y1='80' x2='220' y2='80' stroke='currentColor' stroke-width='2'/><line x1='90' y1='10' x2='190' y2='150' stroke='currentColor' stroke-width='2'/><line x1='50' y1='80' x2='90' y2='10' stroke='currentColor' stroke-width='2'/><text x='35' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>M</text><text x='130' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>N</text><text x='75' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>P</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='195' y='150' fill='currentColor' font-family='sans-serif' font-size='16'>y</text></svg><br><br>Góc đối đỉnh của góc MNy là góc nào?",
+        "options": ["Góc MNP", "Góc xNy", "Góc PNx", "Góc MPN"],
+        "answer": "Góc PNx"
+    },
+    {
+        "question": "Cho hình chữ nhật ABCD có hai đường chéo AC và BD cắt nhau tại O:<br><br><svg height='120' width='230'><rect x='40' y='30' width='150' height='60' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='30' x2='190' y2='90' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='190' y2='30' stroke='currentColor' stroke-width='2'/><text x='25' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='200' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='200' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='25' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='115' y='50' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Góc đối đỉnh của góc AOB là góc nào?",
+        "options": ["Góc BOC", "Góc DOC", "Góc AOD", "Góc BAD"],
+        "answer": "Góc DOC"
+    },
+    {
+        "question": "Từ hình vẽ hình chữ nhật ABCD:<br><br><svg height='120' width='230'><rect x='40' y='30' width='150' height='60' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='30' x2='190' y2='90' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='190' y2='30' stroke='currentColor' stroke-width='2'/><text x='25' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='200' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='200' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='25' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='115' y='50' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Hai góc kề bù với góc AOB là?",
+        "options": ["Góc BOC và góc DOC", "Góc BOC và góc AOD", "Góc AOD và góc DOC", "Góc ABC và góc ADC"],
+        "answer": "Góc BOC và góc AOD"
+    },
+    {
+        "question": "Dựa vào hình vẽ:<br><br><svg height='120' width='230'><rect x='40' y='30' width='150' height='60' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='30' x2='190' y2='90' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='190' y2='30' stroke='currentColor' stroke-width='2'/><text x='25' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='200' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='200' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='25' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='115' y='50' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Góc đối đỉnh của góc BOC là góc nào?",
+        "options": ["Góc AOD", "Góc AOB", "Góc DOC", "Góc BCD"],
+        "answer": "Góc AOD"
+    },
+    {
+        "question": "Trong hình chữ nhật ABCD có hai đường chéo cắt nhau tại O:<br><br><svg height='120' width='230'><rect x='40' y='30' width='150' height='60' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='30' x2='190' y2='90' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='190' y2='30' stroke='currentColor' stroke-width='2'/><text x='25' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='200' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='200' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='25' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='115' y='50' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Góc BOC kề bù với những góc nào?",
+        "options": ["Góc AOB và góc DOC", "Góc AOD và góc DOC", "Góc AOB và góc AOD", "Chỉ có góc AOB"],
+        "answer": "Góc AOB và góc DOC"
+    },
+    {
+        "question": "Quan sát hình:<br><br><svg height='120' width='230'><rect x='40' y='30' width='150' height='60' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='30' x2='190' y2='90' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='190' y2='30' stroke='currentColor' stroke-width='2'/><text x='25' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='200' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='200' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='25' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='115' y='50' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Cặp góc AOD và DOC là cặp góc gì?",
+        "options": ["Hai góc đối đỉnh", "Hai góc kề bù", "Hai góc so le trong", "Hai góc đồng vị"],
+        "answer": "Hai góc kề bù"
+    },
+    {
+        "question": "Từ hình vẽ:<br><br><svg height='120' width='230'><rect x='40' y='30' width='150' height='60' fill='none' stroke='currentColor' stroke-width='2'/><line x1='40' y1='30' x2='190' y2='90' stroke='currentColor' stroke-width='2'/><line x1='40' y1='90' x2='190' y2='30' stroke='currentColor' stroke-width='2'/><text x='25' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='200' y='25' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='200' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='25' y='105' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='115' y='50' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Cặp góc AOD và BOC có quan hệ như thế nào?",
+        "options": ["Hai góc kề bù", "Hai góc kề nhau", "Hai góc đối đỉnh", "Hai góc phụ nhau"],
+        "answer": "Hai góc đối đỉnh"
+    },
+    {
+        "question": "Cho ba đường thẳng AB, CD và EF đồng quy (cùng cắt nhau) tại điểm O:<br><br><svg height='140' width='230'><line x1='20' y1='70' x2='210' y2='70' stroke='currentColor' stroke-width='2'/><line x1='60' y1='20' x2='170' y2='120' stroke='currentColor' stroke-width='2'/><line x1='170' y1='20' x2='60' y2='120' stroke='currentColor' stroke-width='2'/><text x='10' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='50' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='175' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='175' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>E</text><text x='50' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>F</text><text x='115' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Góc đối đỉnh của góc AOC là góc nào?",
+        "options": ["Góc COB", "Góc BOD", "Góc EOB", "Góc AOF"],
+        "answer": "Góc BOD"
+    },
+    {
+        "question": "Dựa vào hình vẽ:<br><br><svg height='140' width='230'><line x1='20' y1='70' x2='210' y2='70' stroke='currentColor' stroke-width='2'/><line x1='60' y1='20' x2='170' y2='120' stroke='currentColor' stroke-width='2'/><line x1='170' y1='20' x2='60' y2='120' stroke='currentColor' stroke-width='2'/><text x='10' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='50' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='175' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='175' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>E</text><text x='50' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>F</text><text x='115' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Góc đối đỉnh của góc EOB là góc nào?",
+        "options": ["Góc COB", "Góc FOA", "Góc AOD", "Góc EOF"],
+        "answer": "Góc FOA"
+    },
+    {
+        "question": "Quan sát hình:<br><br><svg height='140' width='230'><line x1='20' y1='70' x2='210' y2='70' stroke='currentColor' stroke-width='2'/><line x1='60' y1='20' x2='170' y2='120' stroke='currentColor' stroke-width='2'/><line x1='170' y1='20' x2='60' y2='120' stroke='currentColor' stroke-width='2'/><text x='10' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='50' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='175' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='175' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>E</text><text x='50' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>F</text><text x='115' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Hai góc kề bù với góc AOC (chỉ xét trên đường thẳng AB và CD) là?",
+        "options": ["Góc COB và góc AOD", "Góc AOE và góc FOB", "Góc COE và góc FOD", "Góc AOF và góc BOD"],
+        "answer": "Góc COB và góc AOD"
+    },
+    {
+        "question": "Từ hình vẽ:<br><br><svg height='140' width='230'><line x1='20' y1='70' x2='210' y2='70' stroke='currentColor' stroke-width='2'/><line x1='60' y1='20' x2='170' y2='120' stroke='currentColor' stroke-width='2'/><line x1='170' y1='20' x2='60' y2='120' stroke='currentColor' stroke-width='2'/><text x='10' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='50' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='175' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='175' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>E</text><text x='50' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>F</text><text x='115' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Hai góc kề bù với góc FOA (trên các đường thẳng AB và EF) là?",
+        "options": ["Góc FOB và góc AOE", "Góc AOC và góc BOD", "Góc FOD và góc EOC", "Góc COB và góc AOD"],
+        "answer": "Góc FOB và góc AOE"
+    },
+    {
+        "question": "Trong hình vẽ:<br><br><svg height='140' width='230'><line x1='20' y1='70' x2='210' y2='70' stroke='currentColor' stroke-width='2'/><line x1='60' y1='20' x2='170' y2='120' stroke='currentColor' stroke-width='2'/><line x1='170' y1='20' x2='60' y2='120' stroke='currentColor' stroke-width='2'/><text x='10' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='50' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='175' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='175' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>E</text><text x='50' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>F</text><text x='115' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Góc đối đỉnh của góc COE là góc nào?",
+        "options": ["Góc AOF", "Góc BOD", "Góc DOF", "Góc COF"],
+        "answer": "Góc DOF"
+    },
+    {
+        "question": "Quan sát hình 3 đường thẳng cắt nhau:<br><br><svg height='140' width='230'><line x1='20' y1='70' x2='210' y2='70' stroke='currentColor' stroke-width='2'/><line x1='60' y1='20' x2='170' y2='120' stroke='currentColor' stroke-width='2'/><line x1='170' y1='20' x2='60' y2='120' stroke='currentColor' stroke-width='2'/><text x='10' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>A</text><text x='215' y='75' fill='currentColor' font-family='sans-serif' font-size='16'>B</text><text x='50' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>C</text><text x='175' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>D</text><text x='175' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>E</text><text x='50' y='130' fill='currentColor' font-family='sans-serif' font-size='16'>F</text><text x='115' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>O</text></svg><br><br>Cặp góc COB và AOD là gì của nhau?",
+        "options": ["Cặp góc kề bù", "Cặp góc đối đỉnh", "Cặp góc nhọn", "Cặp góc đồng vị"],
+        "answer": "Cặp góc đối đỉnh"
+    },
+    {
+        "question": "Cho hai đường thẳng HK và UV cắt nhau tại I tạo thành một dấu chéo nghiêng:<br><br><svg height='120' width='230'><line x1='40' y1='10' x2='190' y2='110' stroke='currentColor' stroke-width='2'/><line x1='100' y1='10' x2='130' y2='110' stroke='currentColor' stroke-width='2'/><text x='25' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>H</text><text x='200' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>K</text><text x='90' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>U</text><text x='140' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>V</text><text x='125' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>I</text></svg><br><br>Góc đối đỉnh của góc HIU là góc nào?",
+        "options": ["Góc HIV", "Góc KIV", "Góc UIK", "Góc HIK"],
+        "answer": "Góc KIV"
+    },
+    {
+        "question": "Từ hình vẽ:<br><br><svg height='120' width='230'><line x1='40' y1='10' x2='190' y2='110' stroke='currentColor' stroke-width='2'/><line x1='100' y1='10' x2='130' y2='110' stroke='currentColor' stroke-width='2'/><text x='25' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>H</text><text x='200' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>K</text><text x='90' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>U</text><text x='140' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>V</text><text x='125' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>I</text></svg><br><br>Hai góc kề bù với góc HIU là?",
+        "options": ["Góc KIV và góc UIK", "Góc HIV và góc UIK", "Góc HIV và góc KIV", "Chỉ có góc HIV"],
+        "answer": "Góc HIV và góc UIK"
+    },
+    {
+        "question": "Quan sát hình:<br><br><svg height='120' width='230'><line x1='40' y1='10' x2='190' y2='110' stroke='currentColor' stroke-width='2'/><line x1='100' y1='10' x2='130' y2='110' stroke='currentColor' stroke-width='2'/><text x='25' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>H</text><text x='200' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>K</text><text x='90' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>U</text><text x='140' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>V</text><text x='125' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>I</text></svg><br><br>Góc đối đỉnh của góc HIV là?",
+        "options": ["Góc KIV", "Góc HIU", "Góc UIK", "Góc UIV"],
+        "answer": "Góc UIK"
+    },
+    {
+        "question": "Dựa vào hình vẽ:<br><br><svg height='120' width='230'><line x1='40' y1='10' x2='190' y2='110' stroke='currentColor' stroke-width='2'/><line x1='100' y1='10' x2='130' y2='110' stroke='currentColor' stroke-width='2'/><text x='25' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>H</text><text x='200' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>K</text><text x='90' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>U</text><text x='140' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>V</text><text x='125' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>I</text></svg><br><br>Góc UIK kề bù với những góc nào?",
+        "options": ["Góc HIU và góc HIV", "Góc HIU và góc KIV", "Góc HIV và góc KIV", "Góc UIV và góc HIK"],
+        "answer": "Góc HIU và góc KIV"
+    },
+    {
+        "question": "Trong hình vẽ:<br><br><svg height='120' width='230'><line x1='40' y1='10' x2='190' y2='110' stroke='currentColor' stroke-width='2'/><line x1='100' y1='10' x2='130' y2='110' stroke='currentColor' stroke-width='2'/><text x='25' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>H</text><text x='200' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>K</text><text x='90' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>U</text><text x='140' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>V</text><text x='125' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>I</text></svg><br><br>Cặp góc HIV và UIK là cặp góc gì?",
+        "options": ["Hai góc kề bù", "Hai góc đối đỉnh", "Hai góc phụ nhau", "Hai góc vuông"],
+        "answer": "Hai góc đối đỉnh"
+    },
+    {
+        "question": "Từ hình:<br><br><svg height='120' width='230'><line x1='40' y1='10' x2='190' y2='110' stroke='currentColor' stroke-width='2'/><line x1='100' y1='10' x2='130' y2='110' stroke='currentColor' stroke-width='2'/><text x='25' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>H</text><text x='200' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>K</text><text x='90' y='15' fill='currentColor' font-family='sans-serif' font-size='16'>U</text><text x='140' y='115' fill='currentColor' font-family='sans-serif' font-size='16'>V</text><text x='125' y='60' fill='currentColor' font-family='sans-serif' font-size='16'>I</text></svg><br><br>Cặp góc HIU và UIK là cặp góc gì?",
+        "options": ["Hai góc đối đỉnh", "Hai góc so le trong", "Hai góc kề bù", "Hai góc đồng vị"],
+        "answer": "Hai góc kề bù"
+    },
+    {
+        "question": "Cho hai đường thẳng xy và zt cắt vuông góc với nhau tại S:<br><br><svg height='120' width='230'><line x1='30' y1='60' x2='200' y2='60' stroke='currentColor' stroke-width='2'/><line x1='115' y1='10' x2='115' y2='110' stroke='currentColor' stroke-width='2'/><text x='15' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='210' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>y</text><text x='110' y='10' fill='currentColor' font-family='sans-serif' font-size='16'>z</text><text x='110' y='125' fill='currentColor' font-family='sans-serif' font-size='16'>t</text><text x='125' y='55' fill='currentColor' font-family='sans-serif' font-size='16'>S</text></svg><br><br>Góc đối đỉnh của góc xSz là góc nào?",
+        "options": ["Góc ySt", "Góc ySz", "Góc xSt", "Góc zSt"],
+        "answer": "Góc ySt"
+    },
+    {
+        "question": "Quan sát hình vẽ:<br><br><svg height='120' width='230'><line x1='30' y1='60' x2='200' y2='60' stroke='currentColor' stroke-width='2'/><line x1='115' y1='10' x2='115' y2='110' stroke='currentColor' stroke-width='2'/><text x='15' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='210' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>y</text><text x='110' y='10' fill='currentColor' font-family='sans-serif' font-size='16'>z</text><text x='110' y='125' fill='currentColor' font-family='sans-serif' font-size='16'>t</text><text x='125' y='55' fill='currentColor' font-family='sans-serif' font-size='16'>S</text></svg><br><br>Hai góc kề bù với góc xSz là những góc nào?",
+        "options": ["Góc xSt và góc ySt", "Góc ySz và góc ySt", "Góc xSt và góc ySz", "Góc zSy và góc tSx"],
+        "answer": "Góc xSt và góc ySz"
+    },
+    {
+        "question": "Từ hình vẽ:<br><br><svg height='120' width='230'><line x1='30' y1='60' x2='200' y2='60' stroke='currentColor' stroke-width='2'/><line x1='115' y1='10' x2='115' y2='110' stroke='currentColor' stroke-width='2'/><text x='15' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='210' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>y</text><text x='110' y='10' fill='currentColor' font-family='sans-serif' font-size='16'>z</text><text x='110' y='125' fill='currentColor' font-family='sans-serif' font-size='16'>t</text><text x='125' y='55' fill='currentColor' font-family='sans-serif' font-size='16'>S</text></svg><br><br>Góc đối đỉnh của góc xSt là góc nào?",
+        "options": ["Góc ySt", "Góc xSz", "Góc ySz", "Góc xSy"],
+        "answer": "Góc ySz"
+    },
+    {
+        "question": "Dựa vào hình vẽ:<br><br><svg height='120' width='230'><line x1='30' y1='60' x2='200' y2='60' stroke='currentColor' stroke-width='2'/><line x1='115' y1='10' x2='115' y2='110' stroke='currentColor' stroke-width='2'/><text x='15' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='210' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>y</text><text x='110' y='10' fill='currentColor' font-family='sans-serif' font-size='16'>z</text><text x='110' y='125' fill='currentColor' font-family='sans-serif' font-size='16'>t</text><text x='125' y='55' fill='currentColor' font-family='sans-serif' font-size='16'>S</text></svg><br><br>Góc ySz kề bù với những góc nào?",
+        "options": ["Góc xSz và góc xSt", "Góc ySt và góc xSt", "Góc xSz và góc ySt", "Góc xSy và góc zSt"],
+        "answer": "Góc xSz và góc ySt"
+    },
+    {
+        "question": "Trong hình vẽ:<br><br><svg height='120' width='230'><line x1='30' y1='60' x2='200' y2='60' stroke='currentColor' stroke-width='2'/><line x1='115' y1='10' x2='115' y2='110' stroke='currentColor' stroke-width='2'/><text x='15' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='210' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>y</text><text x='110' y='10' fill='currentColor' font-family='sans-serif' font-size='16'>z</text><text x='110' y='125' fill='currentColor' font-family='sans-serif' font-size='16'>t</text><text x='125' y='55' fill='currentColor' font-family='sans-serif' font-size='16'>S</text></svg><br><br>Cặp góc xSt và ySt là gì của nhau?",
+        "options": ["Hai góc đối đỉnh", "Hai góc kề bù", "Hai góc nhọn", "Hai góc phụ nhau"],
+        "answer": "Hai góc kề bù"
+    },
+    {
+        "question": "Quan sát hình:<br><br><svg height='120' width='230'><line x1='30' y1='60' x2='200' y2='60' stroke='currentColor' stroke-width='2'/><line x1='115' y1='10' x2='115' y2='110' stroke='currentColor' stroke-width='2'/><text x='15' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>x</text><text x='210' y='65' fill='currentColor' font-family='sans-serif' font-size='16'>y</text><text x='110' y='10' fill='currentColor' font-family='sans-serif' font-size='16'>z</text><text x='110' y='125' fill='currentColor' font-family='sans-serif' font-size='16'>t</text><text x='125' y='55' fill='currentColor' font-family='sans-serif' font-size='16'>S</text></svg><br><br>Cặp góc xSt và ySz là gì của nhau?",
+        "options": ["Hai góc kề bù", "Hai góc đối đỉnh", "Hai góc đồng vị", "Hai góc kề nhau"],
+        "answer": "Hai góc đối đỉnh"
+    }
+]
