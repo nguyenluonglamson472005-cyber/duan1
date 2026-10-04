@@ -1,88 +1,75 @@
 import streamlit as st
 import json
+import os
 
 # Cấu hình trang web
 st.set_page_config(page_title="Hệ thống Kiểm tra Trực tuyến", page_icon="📝", layout="centered")
 
-# Khởi tạo các biến session state để lưu trữ dữ liệu giữa các lần tải lại trang
-if 'quiz_data' not in st.session_state:
-    st.session_state['quiz_data'] = None
-if 'submitted' not in st.session_state:
-    st.session_state['submitted'] = False
-
 st.title("📝 Ứng dụng Làm bài Kiểm tra")
 
-# Phân chia 2 Tab chức năng cho Giáo viên và Học sinh
-tab_teacher, tab_student = st.tabs(["👨‍🏫 Dành cho Giáo viên (Tải đề)", "🎓 Dành cho Học sinh (Làm bài)"])
+# File lưu trữ đề kiểm tra trên server
+QUIZ_FILE = "current_quiz.json"
+
+# Phân chia 2 Tab chức năng
+tab_teacher, tab_student = st.tabs(["👨‍🏫 Dành cho Giáo viên", "🎓 Dành cho Học sinh"])
 
 # ================= TAB GIÁO VIÊN =================
 with tab_teacher:
     st.header("Tải đề kiểm tra lên hệ thống")
     st.markdown("""
-    **Hướng dẫn:** Vui lòng tải lên file định dạng `.json` chứa danh sách các câu hỏi. 
-    *Cấu trúc mẫu của file JSON:*
-    ```json
-    [
-        {
-            "question": "Thủ đô của Việt Nam là gì?",
-            "options": ["Hà Nội", "Hồ Chí Minh", "Đà Nẵng", "Huế"],
-            "answer": "Hà Nội"
-        },
-        {
-            "question": "1 + 1 bằng mấy?",
-            "options": ["1", "2", "3", "4"],
-            "answer": "2"
-        }
-    ]
-    ```
+    **Lưu ý:** Đề tải lên ở đây sẽ được lưu lại trên hệ thống. Tất cả học sinh truy cập vào link đều sẽ làm chung đề này.
     """)
     
-    # Nút upload file
     uploaded_file = st.file_uploader("Chọn file JSON của bạn", type=['json'])
 
     if uploaded_file is not None:
         try:
-            # Đọc dữ liệu từ file JSON
             data = json.load(uploaded_file)
-            st.session_state['quiz_data'] = data
-            st.session_state['submitted'] = False # Reset trạng thái nếu tải đề mới
-            st.success("✅ Tải đề lên thành công! Học sinh có thể chuyển sang tab 'Làm bài' để bắt đầu.")
+            # Lưu thẳng file vào ổ cứng của máy chủ để học sinh nào vào cũng thấy
+            with open(QUIZ_FILE, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=4)
+            
+            st.success("✅ Tải đề lên thành công! Học sinh đã có thể nhìn thấy đề.")
         except Exception as e:
-            st.error("❌ File không hợp lệ. Vui lòng kiểm tra lại cấu trúc JSON.")
+            st.error("❌ File không hợp lệ. Vui lòng kiểm tra lại.")
 
 
 # ================= TAB HỌC SINH =================
 with tab_student:
     st.header("Làm bài kiểm tra")
-    quiz_data = st.session_state['quiz_data']
+    
+    # Đọc đề từ file cứng trên máy chủ
+    quiz_data = None
+    if os.path.exists(QUIZ_FILE):
+        try:
+            with open(QUIZ_FILE, "r", encoding="utf-8") as f:
+                quiz_data = json.load(f)
+        except:
+            quiz_data = None
 
-    if quiz_data is None:
-        st.info("ℹ️ Chưa có đề kiểm tra nào được tải lên. Vui lòng đợi giáo viên tải đề.")
+    if not quiz_data:
+        st.info("ℹ️️ Chưa có đề kiểm tra nào được tải lên. Vui lòng đợi giáo viên tải đề.")
     else:
-        # Sử dụng st.form để học sinh làm xong hết mới ấn Nộp bài
         with st.form(key='quiz_form'):
             user_answers = {}
             for i, q in enumerate(quiz_data):
-                st.markdown(f"**Câu {i+1}: {q['question']}**")
-                # Hiển thị các lựa chọn bằng radio button
+                st.markdown(f"**Câu {i+1}:** {q['question']}", unsafe_allow_html=True)
                 user_answers[i] = st.radio(
                     label="Chọn đáp án:",
                     options=q['options'],
                     key=f"q_{i}",
-                    index=None # Không chọn mặc định bất kỳ đáp án nào
+                    index=None
                 )
                 st.write("---")
 
-            # Nút nộp bài
             submit_button = st.form_submit_button(label="🚀 Nộp bài & Xem điểm")
 
             if submit_button:
                 score = 0
                 st.subheader("📊 Kết quả chi tiết:")
 
-                # Chấm điểm
                 for i, q in enumerate(quiz_data):
-                    st.markdown(f"**Câu {i+1}: {q['question']}**")
+                    st.markdown(f"**Câu {i+1}:** {q['question']}", unsafe_allow_html=True)
                     user_ans = user_answers[i]
                     correct_ans = q['answer']
 
@@ -95,9 +82,7 @@ with tab_student:
                         st.error(f"❌ Đáp án của bạn: **{user_ans}** - Sai! Đáp án đúng là: **{correct_ans}**")
                     st.write("---")
 
-                # Hiển thị tổng điểm và hiệu ứng bóng bay
                 st.info(f"🏆 **Điểm số của bạn: {score} / {len(quiz_data)}**")
                 
-                # Hiệu ứng chúc mừng nếu đạt điểm tuyệt đối
                 if score == len(quiz_data) and len(quiz_data) > 0:
                     st.balloons()
